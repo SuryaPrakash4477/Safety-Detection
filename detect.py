@@ -36,9 +36,9 @@ def safetyDetection(file):
                 currentClass = Classname[cls]
                 print(currentClass)
                 if conf>0.5:
-                    if currentClass =='NO-Hardhat' or currentClass =='NO-Safety Vest' or currentClass == "NO-Mask":
+                    if currentClass =='NO-Helmet' or currentClass =='NO-Safety-Vest':
                         myColor = (0, 0,255) # blue 
-                    elif currentClass =='Hardhat' or currentClass =='Safety Vest' or currentClass == "Mask":
+                    elif currentClass =='Helmet' or currentClass =='Safety-Vest':
                         myColor =(0,255,0) # green
                     else:
                         myColor = (255, 0, 0) # red 
